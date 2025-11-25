@@ -125,7 +125,7 @@ IP-CIDR,63.251.124.0/24,DIRECT
 # ^https?:\/\/httpdns\.music\.163\.com - reject
 
 [Script]
-throttle-rewrite = type=http-response,pattern=^https:\/\/gum\.criteo\.com\/appevent\/v1\/2379\?.*,requires-body=1,max-size=0,script-path=https://gitlab.com/Yogurt_Dev/loon_plugins/-/raw/main/JS/throttle-rewrite.js
+throttle-rewrite = type=http-response,pattern=^https:\/\/gum\.criteo\.com\/appevent\/v1\/2379\?.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Yogurt-Res/P-R/refs/heads/main/throttle-rewrite.js
 
 [MITM]
 hostname = gum.criteo.com
